@@ -1,0 +1,50 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.container{
+  display: flex;
+  flex-direction: column;
+  gap:30px;
+}
+.input-container{
+  display: flex;
+  gap:10px;
+  
+}
+
+.input-container textarea{
+  flex: 1; 
+  width:500px;
+  padding: 10px 10px;
+  border-radius: 10px;
+  border: none;
+  
+  overflow-y: hidden;
+  scroll-behavior: smooth;
+  resize: none;
+ 
+}
+.suprise{
+  display: flex;
+  gap:10px;
+}
+.output-container{
+  
+  text-align: left;
+}
+.answer{
+  color: white;
+  border:1px solid white;
+  padding:10px;
+}
+
+
+@media only screen and (max-width: 600px) {
+  #root {
+    margin: 0 auto;
+  }
+}
